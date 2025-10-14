@@ -80,10 +80,10 @@ Como ya se mencionó, el objetivo de esta fase es garantizar la calidad y estruc
 
 ```mermaid 
     graph LR
-    A[Cargar datos]
-    B[Validaciones básicas]
-    C[Limpieza]
-    D[Enriquecimiento temporal] 
+    A[1 <br> Cargar datos]
+    B[2 <br> Validaciones básicas]
+    C[3 <br> Limpieza]
+    D[4 <br> Enriquecimiento temporal] 
     
     A-->B
     B-->C
@@ -99,3 +99,25 @@ Como ya se mencionó, el objetivo de esta fase es garantizar la calidad y estruc
 2. **Validaciones básicas:** Verificar estructura, tipos de datos, valores faltantes
 3. **Limpieza:** Tratar duplicados, outliers y datos inconsistentes
 4. **Enriquesimiento temporal:** Crear variables derivadas (mes, trimestre, día semana, temporada)
+
+## Fase 2. Análisis exploratorio 
+El objetivo de esta fase es comprender el comportamiento general del negocio y sus dimensiones clave, esta fase se divide en el siguient esquema:
+
+```mermaid
+    graph LR
+    A[1 <br> KPIs globales]
+    B[2 <br> EDA por dimensiones]
+    C[3 <br> Cohorts y recurrencia]
+    
+    A-->B
+    B-->C
+
+    style A fill: #105e6c
+    style B fill: #318291
+    style C fill: #325b63
+
+```
+
+1. **KPIs globales:**  Calcular métricas principales (ingresos totales, ticket promedio, tasa de descuento promedio)
+2. **EDA por dimensiones:** Explorar patrones por categoría, región, canal, método de pago y tiempo
+3. **Cohorts y recurrencia:** Analizar comportamiento de clientes nuevos vs recurrentes
