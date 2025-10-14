@@ -121,3 +121,22 @@ El objetivo de esta fase es comprender el comportamiento general del negocio y s
 1. **KPIs globales:**  Calcular métricas principales (ingresos totales, ticket promedio, tasa de descuento promedio)
 2. **EDA por dimensiones:** Explorar patrones por categoría, región, canal, método de pago y tiempo
 3. **Cohorts y recurrencia:** Analizar comportamiento de clientes nuevos vs recurrentes
+
+## Fase 3. Insight y segmentación 
+El objetivo de esta fase es profundizar en patrones específicos y segmentar para estrategias dirigidas, se dividirá en el siguiente esquema:
+
+```mermaid
+    graph LR
+    A[1 <br> Segmentación simple]
+    B[2 <br> Hallazgos y recomendaciones]
+    
+    A-->B
+
+    style A fill: #939a3f
+    style B fill: #818555
+
+```
+
+1. **Segmetación simple:** Agrupar clientes por valor, frecuencia o preferencias
+2. **Hallazgos y recomendaciones:** Sintetizar insights clave y proponer acciones estratégicas
+
