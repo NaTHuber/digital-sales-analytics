@@ -48,3 +48,9 @@ Identificar:
 - ¿Qué oportunidades estratégicas podrían derivarse de estos patrones (p. ej. promociones, nuevos lanzamientos, segmentación de clientes)?
 
 
+## Esquema de trabajo 
+
+- **Fase 1. Preparación de datos:** Garantizar la calidad y estructura del dataset para el análisis 
+- **Fase 2. Análisis exploratorio** Comprender el comportamiento general del negocio y sus dimensiones clave
+- **Fase 3. Insights y segmentación:**  Profundizar en patrones específicos y segmentar para estrategías dirigidas
+- **Fase 4. Comunicación de Resultados:** Presentar los resultados de forma clara y accionable
