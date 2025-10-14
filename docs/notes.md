@@ -36,18 +36,15 @@ Identificar:
 - `channel` → canal de adquisición (Website, Marketplace, Email, SocialAds).
 - `payment_method` → método de pago (Card, PayPal, Stripe, Crypto).
 
+**Preguntas guía**
+- ¿Qué patrones de consumo caracterizan a los compradores de productos digitales en los últimos 12 meses?
 
-## Esquema del proyecto 
-```mermaid 
-graph TD
-    B[1 <br> Cargar datos]--> C[2 <br> Validaciones básicas]
-    C --> D[3 <br> Limpieza]
-    D --> E[4 <br> Enriquecimiento temporal]
-    E --> F[5 <br> KPIs globales]
-    F --> G[6 <br> EDA por dimensiones]
-    G --> H[7 <br> Cohorts y recurrencia]
-    H --> I[8 <br> Segmentación simple]
-    I --> J[9 <br> Visualizaciones clave]
-    J --> K[10 <br> Hallazgos y recomendaciones]
-    K --> L[11 <br> Dashboard]
-```
+- ¿Qué categorías muestran mayor rentabilidad y estabilidad de ventas?
+
+- ¿Existen diferencias significativas en el comportamiento de compra según el canal?
+
+- ¿Cómo influye la estacionalidad (Ene, Sep, Nov, Dic) en las ventas y en los ingresos netos?
+
+- ¿Qué oportunidades estratégicas podrían derivarse de estos patrones (p. ej. promociones, nuevos lanzamientos, segmentación de clientes)?
+
+
