@@ -50,7 +50,28 @@ Identificar:
 
 ## Esquema de trabajo 
 
+```mermaid
+graph TD
+    FASE1[FASE 1: Preparación de datos]
+    
+    FASE2[FASE 2: Análisis exploratorio]
+    
+    FASE3[FASE 3: Insights y segmentación]
+    
+    FASE4[FASE 4: Comunicación de resultados]
+    
+    FASE1 --> FASE2
+    FASE2 --> FASE3
+    FASE3 --> FASE4
+    
+    style FASE1 fill:#e1f5fe
+    style FASE2 fill:#f3e5f5
+    style FASE3 fill:#fff3e0
+    style FASE4 fill:#e8f5e9
+```
+
 - **Fase 1. Preparación de datos:** Garantizar la calidad y estructura del dataset para el análisis 
 - **Fase 2. Análisis exploratorio** Comprender el comportamiento general del negocio y sus dimensiones clave
 - **Fase 3. Insights y segmentación:**  Profundizar en patrones específicos y segmentar para estrategías dirigidas
 - **Fase 4. Comunicación de Resultados:** Presentar los resultados de forma clara y accionable
+
