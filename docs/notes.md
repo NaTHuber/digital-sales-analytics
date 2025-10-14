@@ -64,10 +64,10 @@ graph TD
     FASE2 --> FASE3
     FASE3 --> FASE4
     
-    style FASE1 fill:#bc942e
-    style FASE2 fill:#105e6c
-    style FASE3 fill:#939a3f
-    style FASE4 fill:#a8522d
+    style FASE1 fill: #bc942e
+    style FASE2 fill: #105e6c
+    style FASE3 fill: #939a3f
+    style FASE4 fill: #a8522d
 ```
 
 - **Fase 1. Preparación de datos:** Garantizar la calidad y estructura del dataset para el análisis 
@@ -75,3 +75,27 @@ graph TD
 - **Fase 3. Insights y segmentación:**  Profundizar en patrones específicos y segmentar para estrategías dirigidas
 - **Fase 4. Comunicación de Resultados:** Presentar los resultados de forma clara y accionable
 
+## Fase 1. Preparación de datos
+Como ya se mencionó, el objetivo de esta fase es garantizar la calidad y estructura del dataset para poder hacer un buen análisis. Esta fase del proyecto se va a dividir en: 
+
+```mermaid 
+    graph LR
+    A[Cargar datos]
+    B[Validaciones básicas]
+    C[Limpieza]
+    D[Enriquecimiento temporal] 
+    
+    A-->B
+    B-->C
+    C-->D
+
+    style A fill: #bc942e
+    style B fill: #b59c5c
+    style C fill: #ac965c
+    style D fill: #aea07f
+```
+
+1. **Cargar datos:** Importar el dataset y librerías necesarias
+2. **Validaciones básicas:** Verificar estructura, tipos de datos, valores faltantes
+3. **Limpieza:** Tratar duplicados, outliers y datos inconsistentes
+4. **Enriquesimiento temporal:** Crear variables derivadas (mes, trimestre, día semana, temporada)
