@@ -64,10 +64,10 @@ graph TD
     FASE2 --> FASE3
     FASE3 --> FASE4
     
-    style FASE1 fill:#e1f5fe
-    style FASE2 fill:#f3e5f5
-    style FASE3 fill:#fff3e0
-    style FASE4 fill:#e8f5e9
+    style FASE1 fill:#bc942e
+    style FASE2 fill:#105e6c
+    style FASE3 fill:#939a3f
+    style FASE4 fill:#a8522d
 ```
 
 - **Fase 1. Preparación de datos:** Garantizar la calidad y estructura del dataset para el análisis 
