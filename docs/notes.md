@@ -140,3 +140,21 @@ El objetivo de esta fase es profundizar en patrones específicos y segmentar par
 1. **Segmetación simple:** Agrupar clientes por valor, frecuencia o preferencias
 2. **Hallazgos y recomendaciones:** Sintetizar insights clave y proponer acciones estratégicas
 
+## Fase 4. Comunicación de resultados 
+
+Para esta fase se tiene como objetivo principal presentar los resultados obtenidos de manera clara y accionable. Se prentende hacerlo siguiendo este esquema:
+
+```mermaid
+    graph LR 
+    A[1 <br> Visualizaciones clave]
+    B[2 <br> Diseño de Dashboard]
+    
+    A-->B
+
+    style A fill: #a8522d
+    style B fill: #a26449ff
+```
+
+1. **Visualizaciones clave:** Crear gráficos que comuniquen los insights principales
+2. **Diseño de Dashboard:** Diseñar un tablero interactivo o estático para stakeholders
+
