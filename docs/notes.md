@@ -119,6 +119,19 @@ El objetivo de esta fase es comprender el comportamiento general del negocio y s
 ```
 
 1. **KPIs globales:**  Calcular métricas principales (ingresos totales, ticket promedio, tasa de descuento promedio)
+    
+    - **Resultados:**
+    
+        | KPI | Valor |
+        | :--- | :--- |
+        | **Ingresos Netos Totales** | $374,647.04 |
+        | **Ingresos Brutos Totales** | $379,572.66 |
+        | **Total de Unidades Vendidas** | 9,664 |
+        | **Valor Promedio de Pedido** | $46.83 |
+        | **Valor Máximo de Pedido** | $236.28 |
+        | **Valor Mínimo de Pedido** | $2.55 |
+        | **Tasa de Descuento Promedio** | 1.29% |
+
 2. **EDA por dimensiones:** Explorar patrones por categoría, región, canal, método de pago y tiempo
 3. **Cohorts y recurrencia:** Analizar comportamiento de clientes nuevos vs recurrentes
 
