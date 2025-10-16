@@ -133,6 +133,9 @@ El objetivo de esta fase es comprender el comportamiento general del negocio y s
         | **Tasa de Descuento Promedio** | 1.29% |
 
 2. **EDA por dimensiones:** Explorar patrones por categoría, región, canal, método de pago y tiempo
+
+    - **Resultados:**
+        ![Graficas de barras de las dimensiones](img/plot-eda-dimensions.png)
 3. **Cohorts y recurrencia:** Analizar comportamiento de clientes nuevos vs recurrentes
 
 ## Fase 3. Insight y segmentación 
