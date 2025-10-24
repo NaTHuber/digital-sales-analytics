@@ -137,6 +137,13 @@ El objetivo de esta fase es comprender el comportamiento general del negocio y s
     - **Resultados:**
         ![Graficas de barras de las dimensiones](img/plot-eda-dimensions.png)
 3. **Cohorts y recurrencia:** Analizar comportamiento de clientes nuevos vs recurrentes
+    - **Resultados** 
+        - Total de Clientes Únicos: **995**
+        - Clientes con más de una compra: **441**
+        - Clientes con una sola compra: **554**
+        - Cliente que más ha gastado: ID:1 con un total de **$88,350.46**
+        - Cliente que menos ha gastado: ID:1962 con un total de **$2.85**
+    ![alt text](img/plot-eda-clientes-nuevosvsrecurrentes.png)
 
 ## Fase 3. Insight y segmentación 
 El objetivo de esta fase es profundizar en patrones específicos y segmentar para estrategias dirigidas, se dividirá en el siguiente esquema:
