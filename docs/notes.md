@@ -21,6 +21,8 @@ Identificar:
 
 **Unidades de análisis:** cada fila corresponde a una orden (producto comprado por un cliente en una fecha).
 
+**Número total de variables: 20**
+
 **Variables principales:**
 - `order_id` → identificador único de la orden.
 - `customer_id` → identificador del cliente.
@@ -101,7 +103,7 @@ Como ya se mencionó, el objetivo de esta fase es garantizar la calidad y estruc
 4. **Enriquesimiento temporal:** Crear variables derivadas (mes, trimestre, día semana, temporada)
 
 ## Fase 2. Análisis exploratorio 
-El objetivo de esta fase es comprender el comportamiento general del negocio y sus dimensiones clave, esta fase se divide en el siguient esquema:
+El objetivo de esta fase es comprender el comportamiento general del negocio y sus dimensiones clave, esta fase se divide en el siguiente esquema:
 
 ```mermaid
     graph LR
@@ -136,13 +138,18 @@ El objetivo de esta fase es comprender el comportamiento general del negocio y s
 
     - **Resultados:**
         ![Graficas de barras de las dimensiones](img/plot-eda-dimensions.png)
+        La categoría que se vende más son los e-book. La mayoria de las compras tiene como región "deconocido". La mayoría de las compras se hacen con tarjeta y a través del sitio web. 
+        ![alt text](img/plot-ventas-mensuales.png)
+        El pico de ventas fue en Enero de 2025.
+        ![alt text](img/plot-ingresos-categoria.png)
+        A pesar de que la categoría con mayor ventas son los e-book, la que representa la mayor parte de ingresos netos son los cursos.  
 3. **Cohorts y recurrencia:** Analizar comportamiento de clientes nuevos vs recurrentes
     - **Resultados** 
         - Total de Clientes Únicos: **995**
         - Clientes con más de una compra: **441**
         - Clientes con una sola compra: **554**
         - Cliente que más ha gastado: ID:1 con un total de **$88,350.46**
-        - Cliente que menos ha gastado: ID:1962 con un total de **$2.85**
+        - Cliente que menos ha gastado: ID:12 con un total de **$2.85**
     ![alt text](img/plot-eda-clientes-nuevosvsrecurrentes.png)
 
 ## Fase 3. Insight y segmentación 
