@@ -150,7 +150,10 @@ El objetivo de esta fase es comprender el comportamiento general del negocio y s
         - Clientes con una sola compra: **554**
         - Cliente que más ha gastado: ID:1 con un total de **$88,350.46**
         - Cliente que menos ha gastado: ID:12 con un total de **$2.85**
-    ![alt text](img/plot-eda-clientes-nuevosvsrecurrentes.png)
+        ![alt text](img/plot-eda-clientes-nuevosvsrecurrentes.png)
+        - Porcentaje de ingresos generados por el cliente que más ha gastado: 23.58%
+        ![alt text](img/plot-categorias-ingreso-categorias-cliente-top1.png)
+    
 
 ## Fase 3. Insight y segmentación 
 El objetivo de esta fase es profundizar en patrones específicos y segmentar para estrategias dirigidas, se dividirá en el siguiente esquema:
