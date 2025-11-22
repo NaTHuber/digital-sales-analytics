@@ -174,7 +174,7 @@ El objetivo de esta fase es profundizar en patrones específicos y segmentar par
     - **Ánálisis de Clientes ballena**
         1. Clientes VIP
         2. Caracterización 
-        3. Diagnotico de riesgos 
+        3. Diagnostico de riesgos 
         4. Estrategia de retención
 2. **Hallazgos y recomendaciones:** Sintetizar insights clave y proponer acciones estratégicas
 
