@@ -170,7 +170,12 @@ El objetivo de esta fase es profundizar en patrones específicos y segmentar par
 
 ```
 
-1. **Segmetación simple:** Agrupar clientes por valor, frecuencia o preferencias
+1. **Segmetación simple:** Agrupar clientes por valor, frecuencia o preferencias.
+    - **Ánálisis de Clientes ballena**
+        1. Clientes VIP
+        2. Caracterización 
+        3. Diagnotico de riesgos 
+        4. Estrategia de retención
 2. **Hallazgos y recomendaciones:** Sintetizar insights clave y proponer acciones estratégicas
 
 ## Fase 4. Comunicación de resultados 
