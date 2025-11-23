@@ -172,7 +172,7 @@ El objetivo de esta fase es profundizar en patrones específicos y segmentar par
 
 1. **Segmetación simple:** Agrupar clientes por valor, frecuencia o preferencias.
     - **Ánálisis de Clientes ballena**
-        1. Clientes VIP
+        1. Clientes VIP: El 58.89% de los clientes genera el 80% de los ingresos.
         2. Caracterización 
         3. Diagnostico de riesgos 
         4. Estrategia de retención
